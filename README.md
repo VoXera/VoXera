@@ -8,6 +8,7 @@ The VoXera toolkit is an open-source NLP toolkit for the Persian language (text,
   - Vosk
 - [Keyword Extraction](https://github.com/VoXera/VoXera/tree/master/src/VoXera/Keyword_Extraction/PerDeepKE)
   - PerDeepKE
+- > coming soon!
 ## Installation
 In present, VoXera can be installed and used in two different ways.
 

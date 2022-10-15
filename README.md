@@ -10,7 +10,7 @@ The VoXera toolkit is an open-source NLP toolkit for the Persian language (text,
   - PerDeepKE
 
 To see VoXera's hierarchy:
-
+<img src="https://github.com/VoXera/VoXera/blob/master/VoXera.png" align="center" />
 
 ## Installation
 In present, VoXera can be installed and used in two different ways.

@@ -8,10 +8,6 @@ The VoXera toolkit is an open-source NLP toolkit for the Persian language (text,
   - Vosk
 - [Keyword Extraction](https://github.com/VoXera/VoXera/tree/master/src/VoXera/Keyword_Extraction/PerDeepKE)
   - PerDeepKE
-
-To see VoXera's hierarchy:
-<img src="https://github.com/VoXera/VoXera/blob/master/VoXera.png" align="center" />
-
 ## Installation
 In present, VoXera can be installed and used in two different ways.
 
@@ -32,3 +28,7 @@ pip install -r requirements.txt
 
 You can find a `test.py` file in each folders that shows how to use VoXera's features. For example, for using Persian vosk, you can run and modify [this](https://github.com/VoXera/VoXera/blob/master/src/VoXera/Automatic_Speech_Recognition/Vosk/test.py).
 
+To see VoXera's hierarchy:
+<img src="https://github.com/VoXera/VoXera/blob/master/VoXera.png" align="center" />
+
+Also you can download [xmind version](https://github.com/VoXera/VoXera/blob/master/VoXera.xmind) of the hierarchy.

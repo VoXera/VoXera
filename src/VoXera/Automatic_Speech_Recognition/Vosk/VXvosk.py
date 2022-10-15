@@ -56,5 +56,5 @@ class AutomaticSpeechRecogniton():
         
         return text, segments
     
-    def post_process(self):
+    def postprocess(self):
         pass

@@ -1,5 +1,5 @@
 # some folders
-models/
+src/VoXera/Automatic_Speech_Recognition/Saved_Models/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

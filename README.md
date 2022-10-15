@@ -18,7 +18,7 @@ In present, VoXera can be installed and used in two different ways.
 
 2- Clone VoXera from your Github profile
 
-3- Run the bellow script in your terminal from VoXera directory:
+3- Run the below script in your terminal from VoXera directory:
 ```
 pip install -r requirements.txt
 ```

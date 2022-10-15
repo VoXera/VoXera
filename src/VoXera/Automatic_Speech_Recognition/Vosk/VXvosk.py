@@ -18,6 +18,9 @@ class AutomaticSpeechRecogniton():
 
         self.model = Model(model_path= model_dir + model_name)
 
+    def preprocess(self):
+        pass
+
     def infer(self, speech_file_path):
         """
         Parameters:
@@ -52,3 +55,6 @@ class AutomaticSpeechRecogniton():
         text = result['text']
         
         return text, segments
+    
+    def post_process(self):
+        pass

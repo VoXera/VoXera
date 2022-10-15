@@ -14,6 +14,8 @@ class AutomaticSpeechRecogniton():
         print('😊 Whisper is loading on your system...\n'+'-'*50)
         self.model = whisper.load_model(name= model_name,
                                 download_root= model_dir)
+    def preprocess(self):
+        pass
 
     def infer(self, speech_file_path):
         """
@@ -35,3 +37,6 @@ class AutomaticSpeechRecogniton():
         segments = result["segments"]
 
         return text, segments
+    
+    def post_process(self):
+        pass

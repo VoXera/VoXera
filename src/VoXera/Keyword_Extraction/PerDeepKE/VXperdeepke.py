@@ -23,7 +23,7 @@ class KeywordExtraction():
         words_type = list(set(tokens))
 
         text_embedding = self.embeder.sentence_embedding([text])
-        segments_embedding = self.embeder.sentence_embedding(segmentor(tokens, segment_num))
+        segments_embedding = self.embeder.sentence_embedding(segmentor(tokens, segment_num)[0])
         words_type_embedding = self.embeder.sentence_embedding(words_type)
 
         words_text_sim = np.matmul(text_embedding, words_type_embedding.T)

@@ -18,6 +18,9 @@ class KeywordExtraction():
     def train(self):
         pass
     
+    def _semantic_score_up(self, scores):
+        return np.dot(scores, self.weights)
+
     def infer(self, text, segment_num= 2, top_n= 5):
         tokens = self.tokenizer.tokenize_words(text)
         words_type = list(set(tokens))
@@ -31,8 +34,8 @@ class KeywordExtraction():
 
         similar_matrix = np.concatenate((words_text_sim, words_segments_sim), axis = 0)
 
-        weights = np.ones(similar_matrix.shape[0])
-        weights[0] *= 3 
+        self.weights = np.ones(similar_matrix.shape[0])
+        self.weights[0] *= 3 
 
         word_score = zip(words_type, np.apply_along_axis(self._semantic_score_up, 0, similar_matrix))
 

@@ -10,6 +10,7 @@ The VoXera toolkit is an open-source NLP toolkit for the Persian language (text,
   - PerDeepKE
 - [Paraphrase Generation](https://github.com/VoXera/VoXera/tree/master/src/VoXera/ParaphraseGeneration)
   - Lab/Parrot
+  - Lab/Pegasus
 - > coming soon!
 ## Installation
 In present, VoXera can be installed and used in two different ways.

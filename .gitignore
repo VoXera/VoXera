@@ -1,6 +1,6 @@
 # some folders
 src/VoXera/AutomaticSpeechRecognition/SavedModels/
-
+src/VoXera/ParaphraseGeneration/SavedModels/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

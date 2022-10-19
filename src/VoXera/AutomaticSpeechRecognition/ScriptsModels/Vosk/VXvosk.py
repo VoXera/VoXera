@@ -6,7 +6,7 @@ class AutomaticSpeechRecogniton():
     def __init__(self):
         pass
 
-    def load_model(self, model_dir= "../models/vosk/", model_name= 'small'):
+    def load_model(self, model_dir= "../SavedModels/vosk/", model_name= 'small'):
         """
         Parameters:
         ----------

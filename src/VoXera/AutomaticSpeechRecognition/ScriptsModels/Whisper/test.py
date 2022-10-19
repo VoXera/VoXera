@@ -1,8 +1,8 @@
 from VXwhisper import AutomaticSpeechRecogniton
 
 model_name = 'base'
-model_dir = "../Saved_Models/Whisper/"
-my_path = "../Test_Data/news_1.wav"
+model_dir = "../SavedModels/Whisper/"
+my_path = "../TestData/news_1.wav"
 
 asr = AutomaticSpeechRecogniton()
 

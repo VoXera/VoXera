@@ -4,7 +4,7 @@ class AutomaticSpeechRecogniton():
     def __init__(self):
         pass
 
-    def load_model(self, model_dir= "../models/whisper/", model_name= 'base'):
+    def load_model(self, model_dir= "../SavedModels/whisper/", model_name= 'base'):
         """
         Parameters:
         ----------

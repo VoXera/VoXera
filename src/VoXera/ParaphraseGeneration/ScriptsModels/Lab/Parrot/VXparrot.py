@@ -1,9 +1,3 @@
-# from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
-
-# tokenizer = AutoTokenizer.from_pretrained("./parrotT5/")
-# # tokenizer = AutoTokenizer.from_pretrained("prithivida/parrot_paraphraser_on_T5", cache_dir= './parrotT5/', local_files_only=True)
-
-# model = AutoModelForSeq2SeqLM.from_pretrained("./parrotT5/")
 from transformers import AutoTokenizer
 from transformers import AutoModelForSeq2SeqLM
 from parrot.filters import Adequacy

@@ -1,5 +1,7 @@
 numpy==1.21.6
+parrot==1.0
 parsivar==0.2.3
 sentence_transformers==2.2.0
+transformers==4.23.1
 vosk==0.3.44
 whisper==1.0

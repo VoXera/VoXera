@@ -1,6 +1,16 @@
 import torch
 from transformers import T5ForConditionalGeneration,T5Tokenizer
 
+"""
+https://huggingface.co/ramsrigouthamg/t5_sentence_paraphraser
+
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+
+tokenizer = AutoTokenizer.from_pretrained("ramsrigouthamg/t5_sentence_paraphraser")
+
+model = AutoModelForSeq2SeqLM.from_pretrained("ramsrigouthamg/t5_sentence_paraphraser")
+"""
+
 
 def set_seed(seed):
   torch.manual_seed(seed)

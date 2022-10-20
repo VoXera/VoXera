@@ -1,4 +1,4 @@
-from VXpegasus import Paraphrase_Generation
+from VoXera.ParaphraseGeneration.ScriptsModels.Lab.Pegasus.VXpegasus import Paraphrase_Generation
 
 context = "The ultimate test of your knowledge is your capacity to convey it to another."
 

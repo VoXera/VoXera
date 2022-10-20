@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "VoXera"
+version = "0.0.1"
+authors = [
+  { name="VoXera", email="boxvoxera@gmail.com" },
+]
+description = "An Open-Source Persian Language Techs Toolkit with Python"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3.8",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Home page" = "https://github.com/VoXera/VoXera"
+"Bug Tracker" = "https://github.com/VoXera/VoXera/issues"

@@ -39,7 +39,7 @@ pip install VoXera
 
 ## How to Use 
 
-You can find a `test.py` file in each folders that shows how to use VoXera's features. For example, for using Persian vosk, you can run and modify [this](https://github.com/VoXera/VoXera/blob/master/src/VoXera/Automatic_Speech_Recognition/Vosk/test.py).
+You can find a `test.py` file in each folders that shows how to use VoXera's features. For example, for using Persian vosk, you can run and modify [this](https://github.com/VoXera/VoXera/blob/master/src/VoXera/AutomaticSpeechRecognition/ScriptsModels/Vosk/test.py).
 
 To see VoXera's hierarchy:
 <img src="https://github.com/VoXera/VoXera/blob/master/VoXera.png" align="center" />

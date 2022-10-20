@@ -26,7 +26,15 @@ In present, VoXera can be installed and used in two different ways.
 pip install -r requirements.txt
 ```
 ## 2. From PyPi
->coming soon
+
+1. Run the below script in your terminal from VoXera directory:
+```
+pip install -r requirements.txt
+```
+2. Installation from [Pypi](https://pypi.org/project/VoXera/).
+```
+pip install VoXera
+```
 
 ## How to Use 
 

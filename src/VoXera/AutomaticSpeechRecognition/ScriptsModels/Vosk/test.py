@@ -1,8 +1,8 @@
 from VXvosk import AutomaticSpeechRecogniton
 
 model_name = 'small'
-model_dir = "../SavedModels/Vosk/"
-my_path = "../TestData/news_1.wav"
+model_dir = "../../SavedModels/Vosk/"
+my_path = "../../TestData/news_1.wav"
 
 asr = AutomaticSpeechRecogniton()
 

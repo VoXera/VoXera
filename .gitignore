@@ -2,6 +2,7 @@
 src/VoXera/AutomaticSpeechRecognition/SavedModels/
 src/VoXera/ParaphraseGeneration/SavedModels/
 MyPythonics/
+Research/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

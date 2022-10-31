@@ -44,4 +44,4 @@ You can find a `test.py` file in each folders that shows how to use VoXera's fea
 To see VoXera's hierarchy:
 <img src="https://github.com/VoXera/VoXera/blob/master/VoXera.png" align="center" />
 
-Also you can download [xmind version](https://github.com/VoXera/VoXera/blob/master/VoXera.xmind) of the hierarchy.
+Also you can download [xmind version](https://github.com/VoXera/VoXera/blob/master/VoXera.xmind) of the hierarchy.   
